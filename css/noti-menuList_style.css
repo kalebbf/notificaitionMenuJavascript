@@ -1,0 +1,119 @@
+#containerGeralNotify{
+        cursor: pointer;    
+    height: 80%;
+    z-index: 9999;
+    right: 0;
+    position: fixed;
+ 
+}
+.noty-menuListZero{
+    display: inline-block;
+    background: url(https://cdn1.iconfinder.com/data/icons/unique-round-blue/93/mail-20.png) no-repeat 50% 50%;
+    border-radius: 52px;
+    z-index: 100;
+    width: 33px;
+    border: none;
+    height: 33px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+    font-weight: bold;
+}
+.balaoNotifi{    
+         display: inline-block;
+    background: url(https://cdn1.iconfinder.com/data/icons/unique-round-blue/93/mail-32.png) no-repeat 50% 50%;
+    border-radius: 52px;
+    z-index: 100;
+    width: 33px;
+    /* border: 1px solid red; */
+    height: 33px;
+     position: relative; 
+    /* right: 0; */
+    float: right;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+    font-weight: bold;
+}
+#containerIconeBalao{
+       overflow: hidden;
+    width: 66px;
+    right: 0;
+    /* border: 1px solid red; */
+    position: absolute;
+    float: right;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+
+}
+#noty-menuList_numeroMsg{
+        /* border: 1px solid blue; */
+    height: 14px;
+    text-align: center;
+    margin-top: 6px;
+    border-radius: 12px;
+    /* padding-left: 67px; */
+    padding: 3px;
+    background-color: #00AEEF;
+    line-height: 15px;
+}
+
+#containerLista{
+    
+       background: #B9B7B7;
+       padding: 11px;
+    margin: 19px;  
+    z-index: 99;
+height:auto;
+max-height: 87%;
+    width: 300px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px 0px rgba(8, 8, 8, 0.7);
+overflow:auto;
+}
+#lista{}
+.item{
+    
+    height: 32px;
+      border-bottom: 1px solid #BDBDBD;
+    margin: 2px;
+    padding: 10px;
+    width: 258px;
+    color:#272222;
+    padding-left: 32px;
+    text-align: center;
+}
+.noty-menuListlido{
+    border:none;
+    opacity: 0.5;
+    color:white;
+}
+.noty-menuListlido:hover{
+    background-color: #737373;
+ opacity: 1;
+}
+.success{
+background: url(https://cdn1.iconfinder.com/data/icons/linecon/512/tick-16.png)3% 48% no-repeat;
+
+}
+.information{
+    overflow: hidden;        
+    background: url(https://cdn4.iconfinder.com/data/icons/linecon/512/info-16.png)3% 48% no-repeat;
+}
+.error{
+background: url(https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-16.png)3% 48% no-repeat;
+    
+
+}
+.warning{
+background: url(https://cdn4.iconfinder.com/data/icons/geomicons/32/672365-warning-2-16.png)3% 48% no-repeat;
+
+}
+.alert{
+background: url(https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-16.png)3% 48% no-repeat;
+
+}
