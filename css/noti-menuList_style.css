@@ -6,6 +6,39 @@
     position: fixed;
  
 }
+.noty_type_error{
+        max-width: 300px;
+    background-color: rgba(216, 0, 0, 0.56);
+    border: 1px solid rgba(255, 0, 0, 0.76);
+    border-radius: 6px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.52) 0px 2px 4px;
+}
+.center-top{
+    margin: 0 auto;
+}
+.bottom{
+bottom: 20px;
+    left: 552.5px;
+    position: fixed;
+    width: 261px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    z-index: 10000000;
+}
+.top-left{
+    top: 0px;
+    left: 5%;
+    position: fixed;
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    z-index: 9999999;
+}
 .noty-menuListZero{
     display: inline-block;
     background: url(https://cdn1.iconfinder.com/data/icons/unique-round-blue/93/mail-20.png) no-repeat 50% 50%;
@@ -105,7 +138,7 @@ background: url(https://cdn1.iconfinder.com/data/icons/linecon/512/tick-16.png)3
     background: url(https://cdn4.iconfinder.com/data/icons/linecon/512/info-16.png)3% 48% no-repeat;
 }
 .error{
-background: url(https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-16.png)3% 48% no-repeat;
+background: url(https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-16.png)3% 48% no-repeat,rgba(216, 0, 0, 0.56);
     
 
 }
