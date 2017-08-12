@@ -6,6 +6,13 @@
     position: fixed;
  
 }
+.noty_bar{
+    margin-bottom: 10px;
+    max-width: 300px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.52) 0px 2px 4px;
+}
 .noty_type_error{
         max-width: 300px;
     background-color: rgba(216, 0, 0, 0.56);
@@ -120,6 +127,9 @@ overflow:auto;
     padding-left: 32px;
     text-align: center;
 }
+#msg_notify{
+    position: absolute;
+}
 .noty-menuListlido{
     border:none;
     opacity: 0.5;
@@ -130,12 +140,12 @@ overflow:auto;
  opacity: 1;
 }
 .success{
-background: url(https://cdn1.iconfinder.com/data/icons/linecon/512/tick-16.png)3% 48% no-repeat;
+    background: url(https://cdn1.iconfinder.com/data/icons/linecon/512/tick-16.png)3% 48% no-repeat,rgba(76, 175, 80, 0.6);
 
 }
 .information{
     overflow: hidden;        
-    background: url(https://cdn4.iconfinder.com/data/icons/linecon/512/info-16.png)3% 48% no-repeat;
+    background:url(https://cdn4.iconfinder.com/data/icons/linecon/512/info-16.png)3% 48% no-repeat,rgba(33, 150, 243, 0.74);
 }
 .error{
 background: url(https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-16.png)3% 48% no-repeat,rgba(216, 0, 0, 0.56);
