@@ -35,4 +35,10 @@
 </div>
 
 ```
-3. é preciso inicializar o componente com ```menuNoty()```
+3. é preciso inicializar o plugin com ```menuNoty()``` que é necessario passar o json de opcoes utilize este para auxilio ```{
+                        listMessages:
+                        {
+                          {"texto":"teste de mensagem","tipo":"error","lido":"S"}
+                        },notify:{animateHideCss:"animated fadeOutLeft",
+      animateShowCss:"animated fadeInLeft"}} ```
+4. a variavel listMessages do json é onde vc inicializa todas as mensagens que quer carregar passe um array de objetos com estas variaveis preenchidas ```{"texto":"teste de mensagem","tipo":"error","lido":"S"}```
