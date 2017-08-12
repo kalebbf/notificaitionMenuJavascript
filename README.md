@@ -42,3 +42,7 @@
                         },notify:{animateHideCss:"animated fadeOutLeft",
       animateShowCss:"animated fadeInLeft"}} ```
 4. a variavel listMessages do json é onde vc inicializa todas as mensagens que quer carregar passe um array de objetos com estas variaveis preenchidas ```{"texto":"teste de mensagem","tipo":"error","lido":"S"}```
+
+## Estilizando 
+
+altere o estilo de todo o componente como desejar utilizando a folha de css com o nome  de ```noti-menuList_style``` por padrao as mensagens tem 5 status mas para criar os seus é so passar no tipo da mensagem e criar um estilo css onde quiser que o componente se encarrega de preencher o estilo e de realizar os eventos.
